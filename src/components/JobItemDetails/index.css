@@ -1,0 +1,134 @@
+.job-details-bg-container {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.success-view-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+}
+.logo-title-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.location-intensionship-package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.location-container,
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.horizental-line {
+  color: #cbd5e1;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+.description-title-link-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.company-logo-url {
+  height: 100px;
+  width: 100px;
+}
+.rating-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.link-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.visit-button {
+  background-color: transparent;
+  border-width: 0px;
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.skills-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.skills-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.skill-image {
+  height: 50px;
+  width: 50px;
+}
+.life-at-company-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.life-at-company-description {
+  flex-grow: 1;
+  font-family: 'Roboto';
+
+  width: 50%;
+}
+.life-at-company-image {
+  flex-grow: 1;
+}
+.life-at-company-heading {
+  margin: 0px;
+}
+.similar-jobs-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.similar-job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  color: #ffffff;
+  width: 300px;
+  max-height: 500px;
+  padding: 10px;
+  border-radius: 7px;
+}
+.similar-jobs-heading {
+  color: #ffffff;
+}
