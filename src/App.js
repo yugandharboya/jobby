@@ -8,7 +8,6 @@ import JobsContext from './components/Context'
 import JobItemDetails from './components/JobItemDetails'
 import NotFound from './components/NotFound'
 
-// These are the lists used in the application. You can move them to any component needed.
 const employmentTypesList = [
   {
     label: 'Full Time',

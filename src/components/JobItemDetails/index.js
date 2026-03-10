@@ -149,14 +149,10 @@ class JobItemDetails extends Component {
           {similarJobs.map(job => (
             <li key={job.id}>
               <img src={job.companyLogoUrl} alt="similar job company logo" />
-
               <h1>{job.title}</h1>
-
               <p>{job.rating}</p>
 
-              <p>{job.location}</p>
-
-              <p>{job.employmentType}</p>
+              <h1>Description</h1>
 
               <p>{job.jobDescription}</p>
             </li>
